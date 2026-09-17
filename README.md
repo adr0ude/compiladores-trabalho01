@@ -54,4 +54,4 @@ A implementação deve ser realizada em uma das linguagens a seguir:
 │   └── 1.9-b.jff
 │
 └── questao-programacao
-    └── fatorial.md
+    └── fatorial.cbl
