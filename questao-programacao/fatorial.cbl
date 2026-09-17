@@ -1,0 +1,31 @@
+IDENTIFICATION DIVISION.
+    PROGRAM-ID. FATORIAL.
+    AUTHOR. Equipe 05.
+
+ENVIRONMENT DIVISION.
+
+DATA DIVISION.
+WORKING-STORAGE SECTION.
+
+01  N           PIC S9(5).
+01  FATORIAL    PIC 9(19) VALUE 1.
+01  I           PIC 9(5).
+
+PROCEDURE DIVISION.
+PRINCIPAL.
+
+    DISPLAY "Digite um numero natural: "
+    ACCEPT N
+
+    IF N < 0
+        DISPLAY "O numero deve ser natural."
+    ELSE
+        PERFORM VARYING I FROM 1 BY 1 UNTIL I > N
+            COMPUTE FATORIAL = FATORIAL * I
+        END-PERFORM
+
+        DISPLAY "O fatorial de " N " e: " FATORIAL
+    END-IF
+
+STOP RUN.
+END PROGRAM FATORIAL.
