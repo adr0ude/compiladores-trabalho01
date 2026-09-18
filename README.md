@@ -50,8 +50,8 @@ A implementação deve ser realizada em uma das linguagens a seguir:
 │   ├── item-d/
 │   └── item-f/
 ├── questao-1.9/
-│   ├── 1.9-a.jff
-│   └── 1.9-b.jff
+│   ├── item-a/
+│   └── item-b/
 │
 └── questao-programacao
-    └── fatorial.cbl
+    └── Fatorial.cbl
