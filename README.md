@@ -49,6 +49,7 @@ A implementação deve ser realizada em uma das linguagens a seguir:
 │   ├── item-c/
 │   ├── item-d/
 │   └── item-f/
+|
 ├── questao-1.9/
 │   ├── item-a/
 │   └── item-b/
